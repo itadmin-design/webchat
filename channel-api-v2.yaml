@@ -1,0 +1,799 @@
+openapi: 3.0.3
+info:
+  title: Channel API v2
+  description: |
+    Полнофункциональный REST API для интеграции внешнего чат-фронтенда с chatben.
+    Повторяет все возможности Telegram-канала: сценарии, рассылки, файлы, inline-кнопки, реплаи.
+
+    ## Аутентификация
+    Каждый v2-бот имеет уникальный API-ключ (`apiKeyV2`), передаваемый через заголовок:
+    ```
+    Authorization: Bearer <apiKeyV2>
+    ```
+
+    ## Реалтайм
+    Для получения обновлений в реальном времени используйте SSE endpoint `GET /events`.
+
+    ## Генерация клиентских SDK
+    ```bash
+    npx @openapitools/openapi-generator-cli generate \
+      -i docs/channel-api-v2.yaml -g typescript-fetch -o ./client-ts
+    ```
+  version: 2.0.0
+  contact:
+    name: ADV Team
+
+servers:
+  - url: /channel-api/v2/{botId}
+    variables:
+      botId:
+        description: ID бота с типом apiV2
+        default: "1"
+
+security:
+  - BearerAuth: []
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      description: API ключ бота (apiKeyV2 из channel_properties.data)
+
+  schemas:
+    # === Запросы ===
+
+    CreateChatRequest:
+      type: object
+      properties:
+        startParam:
+          type: string
+          maxLength: 64
+          description: |
+            UTM-метка / deep link параметр (аналог /start utm_tag в Telegram).
+            Записывается в Chat.LeadPassword, запускает TRIGGER_START.
+            Без этого поля запускается TRIGGER_START_NO_UTM.
+          example: "utm_yandex_march2026"
+        nickname:
+          type: string
+          maxLength: 200
+          description: Никнейм пользователя
+          example: "ivan_petrov"
+        firstName:
+          type: string
+          maxLength: 200
+          description: Имя
+          example: "Иван"
+        lastName:
+          type: string
+          maxLength: 200
+          description: Фамилия
+          example: "Петров"
+        code:
+          type: string
+          maxLength: 100
+          description: |
+            Уникальный код клиента.
+            - Если передан: при повторном вызове с тем же code возвращается
+              существующий чат + перезапуск /start флоу.
+            - Если не передан: сервер автоматически генерирует уникальный код
+              по схеме PREFIX+NNNN (например ABC0007), где PREFIX берётся из
+              настроек коллекции ботов. Сгенерированный код возвращается
+              в поле code ответа.
+          example: "CLIENT-001"
+
+    SendMessageRequest:
+      type: object
+      required:
+        - text
+      properties:
+        text:
+          type: string
+          description: |
+            Текст сообщения. Поддерживает HTML-форматирование:
+            `<b>жирный</b>`, `<i>курсив</i>`, `<code>код</code>`,
+            `<a href="url">ссылка</a>`, `<pre>блок кода</pre>`
+          example: "<b>Привет!</b> Чем могу помочь?"
+        replyToMsgId:
+          type: integer
+          format: uint
+          description: ID сообщения, на которое отвечаем (реплай)
+          example: 123
+        parseMode:
+          type: string
+          enum: [html, plain]
+          default: html
+          description: Режим парсинга текста
+
+    SendFileMessageRequest:
+      type: object
+      properties:
+        caption:
+          type: string
+          description: Подпись к файлу (поддерживает HTML-форматирование)
+          example: "Документ <b>важный</b>"
+        replyToMsgId:
+          type: integer
+          format: uint
+          description: ID сообщения, на которое отвечаем
+        fileType:
+          type: string
+          enum: [voice, image, document, audio, video, sticker]
+          default: document
+          description: Тип файла (влияет на отображение)
+
+    MarkReadRequest:
+      type: object
+      required:
+        - lastReadMsgId
+      properties:
+        lastReadMsgId:
+          type: integer
+          format: uint
+          description: ID последнего прочитанного сообщения. Все сообщения с id <= будут помечены.
+
+    CallbackRequest:
+      type: object
+      required:
+        - messageId
+        - callbackData
+      properties:
+        messageId:
+          type: integer
+          format: uint
+          description: ID сообщения, к которому привязана кнопка
+          example: 456
+        callbackData:
+          type: string
+          description: Данные callback-кнопки (передаются в flow engine)
+          example: "option_1"
+
+    # === Ответы ===
+
+    ChatResponse:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: uint
+        botId:
+          type: integer
+          format: uint
+        nickname:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        code:
+          type: string
+        leadPassword:
+          type: string
+          description: UTM-метка / deep link параметр
+        chatGroupId:
+          type: integer
+          format: uint
+        assignedId:
+          type: integer
+          format: uint
+          nullable: true
+          description: ID назначенного оператора
+        unreadCount:
+          type: integer
+        lastMessageDate:
+          type: string
+          format: date-time
+          nullable: true
+        lastMessageText:
+          type: string
+        status:
+          type: string
+        advertisementSourceText:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+
+    ChatListResponse:
+      type: object
+      properties:
+        chats:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatResponse'
+        total:
+          type: integer
+        page:
+          type: integer
+        pageSize:
+          type: integer
+
+    MessageResponse:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: uint
+        chatId:
+          type: integer
+          format: uint
+        text:
+          type: string
+        isOut:
+          type: boolean
+          description: true = исходящее (от оператора/бота), false = входящее (от клиента)
+        status:
+          type: string
+          enum: [new, done, error, reject, resended]
+        replyToMsgId:
+          type: integer
+          format: uint
+          nullable: true
+          description: ID сообщения, на которое это реплай
+        replyToMessage:
+          $ref: '#/components/schemas/MessageResponse'
+          nullable: true
+          description: Объект сообщения-реплая (для отображения)
+        fromUserName:
+          type: string
+          description: Имя отправителя (оператор)
+        attachments:
+          type: array
+          items:
+            $ref: '#/components/schemas/AttachmentResponse'
+        keyboard:
+          $ref: '#/components/schemas/KeyboardResponse'
+          nullable: true
+        createdAt:
+          type: string
+          format: date-time
+        isViewed:
+          type: boolean
+
+    AttachmentResponse:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: uint
+        fileType:
+          type: string
+          description: "document, photo, voice, audio, video, sticker"
+        fileName:
+          type: string
+        fileExtension:
+          type: string
+        fileSize:
+          type: integer
+          format: int64
+        caption:
+          type: string
+        mimeType:
+          type: string
+        fileStorageId:
+          type: integer
+          format: uint
+        downloadUrl:
+          type: string
+          description: Относительный URL для скачивания файла
+        isSticker:
+          type: boolean
+
+    KeyboardResponse:
+      type: object
+      properties:
+        inline:
+          type: array
+          description: Строки кнопок (массив массивов)
+          items:
+            type: array
+            items:
+              $ref: '#/components/schemas/InlineButtonResponse'
+
+    InlineButtonResponse:
+      type: object
+      properties:
+        text:
+          type: string
+          description: Текст кнопки
+        callbackData:
+          type: string
+          description: Данные для POST /callback при нажатии
+        url:
+          type: string
+          description: URL для открытия (вместо callback)
+
+    MessageListResponse:
+      type: object
+      properties:
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/MessageResponse'
+        nextCursor:
+          type: integer
+          format: uint
+          nullable: true
+          description: Курсор для следующей страницы (null = больше нет)
+        hasMore:
+          type: boolean
+
+    FileUploadResponse:
+      type: object
+      properties:
+        fileStorageId:
+          type: integer
+          format: uint
+        fileName:
+          type: string
+        fileSize:
+          type: integer
+          format: int64
+        fileType:
+          type: string
+        downloadUrl:
+          type: string
+
+    CallbackResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          enum: [ok, error]
+        message:
+          type: string
+
+    # === SSE события ===
+
+    SSENewMessageEvent:
+      type: object
+      description: "event: new_message"
+      properties:
+        chatId:
+          type: integer
+          format: uint
+        message:
+          $ref: '#/components/schemas/MessageResponse'
+
+    SSEMessageStatusEvent:
+      type: object
+      description: "event: message_status"
+      properties:
+        chatId:
+          type: integer
+          format: uint
+        messageId:
+          type: integer
+          format: uint
+        status:
+          type: string
+
+    SSEChatUpdatedEvent:
+      type: object
+      description: "event: chat_updated"
+      properties:
+        chatId:
+          type: integer
+          format: uint
+        changes:
+          type: object
+
+    # === Ошибки ===
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+              example: "CHAT_NOT_FOUND"
+            message:
+              type: string
+              example: "Chat with id 123 not found"
+
+paths:
+  /chats:
+    post:
+      operationId: createChat
+      summary: Создать чат (аналог /start)
+      description: |
+        Создаёт новый чат или возвращает существующий (если передан code).
+        При наличии startParam записывает UTM-метку и запускает TRIGGER_START.
+        Без startParam запускает TRIGGER_START_NO_UTM.
+      tags: [Chats]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateChatRequest'
+      responses:
+        '200':
+          description: Чат создан или найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+        '400':
+          description: Невалидные данные
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '401':
+          description: Невалидный API ключ
+
+    get:
+      operationId: listChats
+      summary: Список чатов бота
+      tags: [Chats]
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: pageSize
+          in: query
+          schema:
+            type: integer
+            default: 50
+            maximum: 200
+        - name: search
+          in: query
+          schema:
+            type: string
+          description: Поиск по имени/никнейму/коду
+      responses:
+        '200':
+          description: Список чатов
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatListResponse'
+        '401':
+          description: Невалидный API ключ
+
+  /chats/{chatId}:
+    get:
+      operationId: getChat
+      summary: Информация о чате
+      tags: [Chats]
+      parameters:
+        - name: chatId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+      responses:
+        '200':
+          description: Информация о чате
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+        '404':
+          description: Чат не найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /chats/{chatId}/messages:
+    get:
+      operationId: listMessages
+      summary: История сообщений
+      description: |
+        Cursor-based пагинация. Возвращает сообщения с вложениями, реплаями и кнопками.
+        При all=true возвращает все сообщения чата (осторожно с большими чатами).
+      tags: [Messages]
+      parameters:
+        - name: chatId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+        - name: cursor
+          in: query
+          description: ID сообщения-курсора (следующая страница начнётся после/до него)
+          schema:
+            type: integer
+            format: uint
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+            maximum: 200
+        - name: direction
+          in: query
+          description: Направление от курсора
+          schema:
+            type: string
+            enum: [older, newer]
+            default: older
+        - name: all
+          in: query
+          description: Получить все сообщения (игнорирует cursor/limit)
+          schema:
+            type: boolean
+            default: false
+      responses:
+        '200':
+          description: Список сообщений
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MessageListResponse'
+        '404':
+          description: Чат не найден
+
+    post:
+      operationId: sendMessage
+      summary: Отправить текстовое сообщение
+      description: |
+        Отправляет текстовое сообщение от клиента в чат.
+        Поддерживает HTML-форматирование и реплай на конкретное сообщение.
+        Запускает TRIGGER_MESSAGE в flow engine.
+      tags: [Messages]
+      parameters:
+        - name: chatId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendMessageRequest'
+      responses:
+        '200':
+          description: Сообщение отправлено
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MessageResponse'
+        '400':
+          description: Невалидные данные
+        '404':
+          description: Чат не найден
+
+  /chats/{chatId}/messages/file:
+    post:
+      operationId: sendFileMessage
+      summary: Отправить файл/изображение/голосовое
+      description: |
+        Multipart загрузка файла с опциональной подписью.
+        Поддерживаемые типы: voice, image, document, audio, video, sticker.
+        Запускает TRIGGER_MESSAGE в flow engine (подпись используется как текст сообщения).
+      tags: [Messages]
+      parameters:
+        - name: chatId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - file
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: Файл (макс. 50 МБ)
+                caption:
+                  type: string
+                  description: Подпись к файлу (HTML)
+                replyToMsgId:
+                  type: integer
+                  format: uint
+                fileType:
+                  type: string
+                  enum: [voice, image, document, audio, video, sticker]
+                  default: document
+      responses:
+        '200':
+          description: Файл отправлен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MessageResponse'
+        '400':
+          description: Невалидный файл или превышен размер
+        '404':
+          description: Чат не найден
+
+  /chats/{chatId}/callback:
+    post:
+      operationId: sendCallback
+      summary: Нажатие inline-кнопки
+      description: |
+        Отправляет callback от нажатия inline-кнопки.
+        Запускает TRIGGER_CALLBACK в flow engine.
+        Сценарий (CallbackCommand) обрабатывает callback и продолжает флоу.
+      tags: [Messages]
+      parameters:
+        - name: chatId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CallbackRequest'
+      responses:
+        '200':
+          description: Callback обработан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CallbackResponse'
+        '404':
+          description: Чат или сообщение не найдены
+
+  /chats/{chatId}/read:
+    post:
+      operationId: markRead
+      summary: Пометить сообщения прочитанными
+      description: |
+        Помечает все исходящие сообщения (от оператора/бота) с id <= lastReadMsgId
+        как прочитанные клиентом (is_viewed = true).
+      tags: [Chats]
+      parameters:
+        - name: chatId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MarkReadRequest'
+      responses:
+        '200':
+          description: Сообщения помечены
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "ok"
+                  updatedCount:
+                    type: integer
+        '404':
+          description: Чат не найден
+
+  /files:
+    post:
+      operationId: uploadFile
+      summary: Загрузить файл
+      description: |
+        Загружает файл в хранилище и возвращает fileStorageId.
+        Используйте для предварительной загрузки файлов перед отправкой.
+      tags: [Files]
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - file
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: Файл (макс. 50 МБ)
+      responses:
+        '200':
+          description: Файл загружен
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FileUploadResponse'
+        '400':
+          description: Невалидный файл или превышен размер
+
+  /files/{fileId}:
+    get:
+      operationId: downloadFile
+      summary: Скачать файл
+      description: Отдаёт файл по ID из хранилища. Проверяет принадлежность файла к боту.
+      tags: [Files]
+      parameters:
+        - name: fileId
+          in: path
+          required: true
+          schema:
+            type: integer
+            format: uint
+      responses:
+        '200':
+          description: Файл
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+        '404':
+          description: Файл не найден
+
+  /events:
+    get:
+      operationId: eventStream
+      summary: SSE стрим событий
+      description: |
+        Server-Sent Events стрим. Получайте обновления в реальном времени:
+        - `new_message` — новое сообщение (от оператора, бота или сценария)
+        - `message_status` — изменение статуса сообщения
+        - `chat_updated` — изменение метаданных чата (группа, оператор, теги)
+
+        Стандартный `EventSource` не поддерживает кастомные заголовки.
+        Используйте `fetch` + `ReadableStream` или библиотеку `event-source-polyfill`:
+
+        ```javascript
+        // Вариант 1: fetch + ReadableStream
+        const resp = await fetch('/channel-api/v2/5/events', {
+          headers: { 'Authorization': 'Bearer <apiKeyV2>' }
+        });
+        const reader = resp.body.getReader();
+        const decoder = new TextDecoder();
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          console.log(decoder.decode(value));
+        }
+
+        // Вариант 2: event-source-polyfill
+        import { EventSourcePolyfill } from 'event-source-polyfill';
+        const es = new EventSourcePolyfill('/channel-api/v2/5/events', {
+          headers: { 'Authorization': 'Bearer <apiKeyV2>' }
+        });
+        es.addEventListener('new_message', (e) => {
+          const data = JSON.parse(e.data);
+          console.log('New message:', data.message);
+        });
+        ```
+      tags: [Events]
+      responses:
+        '200':
+          description: SSE стрим
+          content:
+            text/event-stream:
+              schema:
+                type: string
+                description: |
+                  Формат: event: <type>\ndata: <json>\n\n
+                  Типы: new_message, message_status, chat_updated
+
+tags:
+  - name: Chats
+    description: Управление чатами
+  - name: Messages
+    description: Отправка и получение сообщений
+  - name: Files
+    description: Загрузка и скачивание файлов
+  - name: Events
+    description: Реалтайм обновления через SSE

@@ -1,0 +1,6843 @@
+[{
+  "_id": {
+    "$oid": "699ef69d7b08c90658473fcc"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-25T13:18:21.979Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-25T13:19:11.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699ef6a67b08c90658473fe5"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-25T13:18:30.214Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-25T13:19:11.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699ef6d97b08c9065847402d"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "How are you?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-25T13:19:21.874Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-25T13:19:21.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699ef6e17b08c90658474038"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "I'm doing well",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-25T13:19:29.889Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-25T13:19:29.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699ef8c27b08c90658474054"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Here it is",
+  "messageType": "image",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/f18b02d8-1b6b-4896-a709-8f1aaff5a0e1-Screenshot_2026-02-25_at_15.27.11.png",
+    "filename": "Screenshot 2026-02-25 at 15.27.11.png",
+    "mimeType": "image/png",
+    "size": 277442
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-25T13:27:30.129Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-25T13:28:09.073Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699ef90a7b08c90658474089"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Nice",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-25T13:28:42.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-25T13:28:42.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0111179808750317d5f76"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T09:23:29.217Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T09:24:20.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0111779808750317d5f86"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T09:23:35.770Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T09:24:20.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0112579808750317d5f8e"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Are you here?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T09:23:49.421Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T09:24:20.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0112d79808750317d5f96"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T09:23:57.511Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T09:24:20.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0114a79808750317d5faf"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Yes",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T09:24:26.341Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T09:24:26.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a02ec479808750317d6265"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T11:30:12.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T11:30:15.355Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a02ece79808750317d6279"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "How can we help you?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T11:30:22.350Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T11:30:22.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a02ed379808750317d6287"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "11",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T11:30:27.676Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T11:30:27.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0383c9f8f3f585b96fafe"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hey",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:10:36.437Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:10:36.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0384a9f8f3f585b96fb21"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:10:50.543Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:10:50.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0386c9f8f3f585b96fb36"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:11:24.446Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:11:24.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a03981ba2f1ee947806aeb"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:16:01.338Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:16:01.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a039beba2f1ee947806b14"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:17:02.994Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:17:03.029Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a03a7d777583eff9e71a3c"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:20:13.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:20:13.854Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a03a89777583eff9e71a5c"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test4",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:20:25.197Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:20:25.249Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a03a90777583eff9e71a69"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test5",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:20:32.892Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T12:20:32.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a03a97777583eff9e71a75"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test 6",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:20:39.135Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T13:22:20.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a03aae777583eff9e71a7e"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hello?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T12:21:02.194Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T13:22:20.330Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05312d3645cb49de1c0eb"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "How are you?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:05:06.316Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:05:06.385Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05320d3645cb49de1c105"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "All good all good",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:05:20.113Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:05:20.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05353d3645cb49de1c147"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Test 1",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:06:11.778Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:06:28.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0539dd3645cb49de1c195"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Nice!",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:07:25.632Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:18:21.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0560edf4e2a3f6e7f5fc0"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hey",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:17:50.949Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:18:21.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05632df4e2a3f6e7f5ff9"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:18:26.348Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:33:56.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05646df4e2a3f6e7f600c"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "??",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:18:46.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:33:56.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a059d569c274cfc094ef42"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hey",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:33:57.981Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:33:58.102Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05a2e69c274cfc094ef97"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:35:26.503Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:35:26.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05a4469c274cfc094efb2"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:35:48.766Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:35:48.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05a6069c274cfc094efc1"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:36:16.676Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:39:46.825Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05b3669c274cfc094f02c"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hi there",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:39:50.157Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:39:50.321Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05b4369c274cfc094f03a"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hello!",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:40:03.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:40:03.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05b4a69c274cfc094f055"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Hello-hello!",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:40:10.219Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:40:10.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05bbe69c274cfc094f062"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:42:06.097Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:42:06.442Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05cb569c274cfc094f0c4"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:46:13.821Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:46:14.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05cd669c274cfc094f0d0"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:46:46.579Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:46:46.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05cdd69c274cfc094f0dc"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:46:53.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:46:53.157Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05d6569c274cfc094f104"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "123 123",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:49:09.195Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:49:09.311Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a05d7369c274cfc094f111"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "456 456",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T14:49:23.768Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T14:49:23.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a069c8ee733d4a6c627134"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Cool",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T15:42:00.396Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T15:42:00.531Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a06e37e0c491c8b41d0dac"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Приветствую!",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T16:00:55.721Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:21:39.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a071b19fe951c9ca98e4e4"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "",
+  "messageType": "image",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/d9c02b73-b287-415b-be94-7ef6cf8ac3c0-IMG_4383.jpeg",
+    "filename": "IMG_4383.jpeg",
+    "mimeType": "image/jpeg",
+    "size": 122284
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T16:15:45.088Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:15:45.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a071d49fe951c9ca98e519"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Nice plant!",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T16:16:20.644Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:16:20.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a072069fe951c9ca98e54e"
+  },
+  "conversationId": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "senderId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "senderRole": "client",
+  "content": "Yep, it is!",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T16:17:10.541Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:17:10.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a075b79fe951c9ca98e631"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "lkds",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T16:32:55.491Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:33:20.800Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b369fe951c9ca98e817"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "xcdc",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:56:22.008Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:56:22.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b429fe951c9ca98e850"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "cvfeed",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:56:34.843Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:56:34.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b539fe951c9ca98e889"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "cdws",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:56:51.889Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:56:51.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b589fe951c9ca98e892"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "ve",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:56:56.719Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:56:56.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b7c9fe951c9ca98e8f0"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "cdws",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:57:32.520Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:57:32.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b8b9fe951c9ca98e948"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "cdqrad",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:57:47.370Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:57:47.370Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b909fe951c9ca98e954"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "cewcqfq",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:57:52.568Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:57:52.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a07b999fe951c9ca98e97d"
+  },
+  "conversationId": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "fvef",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "createdAt": {
+    "$date": "2026-02-26T16:58:01.044Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T16:58:01.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b021f2c0996b64345566"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "dw",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:42:09.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:42:09.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b036f2c0996b643455a3"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "dwd",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:42:30.189Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b03ff2c0996b643455e0"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "fwfwewe",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:42:39.137Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b049f2c0996b6434560b"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "dcs",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:42:49.534Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b052f2c0996b64345630"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "fefe",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:42:58.531Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b0b0f2c0996b6434566f"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "dww",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:44:32.533Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b0bbf2c0996b64345694"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "fefe",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:44:43.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:14.684Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b0dcf2c0996b643456bc"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "dede",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:45:16.938Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:17.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b0e4f2c0996b643456c8"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "cdc",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:45:24.535Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:24.800Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b0eaf2c0996b643456d5"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "dede",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:45:30.191Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:30.788Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b107f2c0996b643456f1"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "xx",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:45:59.571Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:45:59.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a0b10ff2c0996b6434570a"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "ce",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-26T20:46:07.027Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T20:46:07.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a159f6f2c0996b643459ed"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "eew",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-02-27T08:46:46.081Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-27T08:46:46.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a59532f2c0996b64346304"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "Te",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-03-02T13:48:34.876Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T12:24:39.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a59538f2c0996b64346311"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "Taas",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "createdAt": {
+    "$date": "2026-03-02T13:48:40.539Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T12:24:39.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a97b6da57c75686978c78f"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Тест",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-05T12:47:41.010Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T16:12:53.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a97c715891020c68f36eac"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-05T12:52:01.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T16:12:53.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a97c7d5891020c68f36ec8"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-05T12:52:13.912Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T16:12:53.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a97dc982b754df2431744e"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3984849,
+  "createdAt": {
+    "$date": "2026-03-05T12:57:45.521Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T16:12:53.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a97f2882b754df24317494"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Another test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3985014,
+  "createdAt": {
+    "$date": "2026-03-05T13:03:36.209Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T16:12:53.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69a9ab1b82b754df2431753f"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Otvet",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3985994,
+  "createdAt": {
+    "$date": "2026-03-05T16:11:07.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-05T16:11:07.396Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa81f682b754df24317675"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": false,
+  "readByUser": true,
+  "externalMsgId": 3987506,
+  "createdAt": {
+    "$date": "2026-03-06T07:27:50.741Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:27:50.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa822f82b754df24317686"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hello Back",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3987518,
+  "createdAt": {
+    "$date": "2026-03-06T07:28:47.231Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:28:47.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa825b82b754df243176a6"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "Welcome Message",
+  "messageType": "file",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/dc774aef-7058-4f68-a29b-a14cc4f8faad-db.xlsx",
+    "filename": "db.xlsx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "size": 7902943
+  },
+  "readByAdmin": false,
+  "readByUser": true,
+  "externalMsgId": 3987527,
+  "createdAt": {
+    "$date": "2026-03-06T07:29:31.197Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:29:32.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa836682b754df243176d0"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test",
+  "messageType": "file",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/4a29b1e5-5575-4e40-bc92-2bf95ba6fa81-db.xlsx",
+    "filename": "db.xlsx",
+    "mimeType": "application/octet-stream",
+    "size": 7902943
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3987568,
+  "createdAt": {
+    "$date": "2026-03-06T07:33:58.335Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:33:58.716Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa836982b754df243176d9"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test",
+  "messageType": "file",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/b9464f9a-eb27-4bde-b361-e08eafb986cc-db.xlsx",
+    "filename": "db.xlsx",
+    "mimeType": "application/octet-stream",
+    "size": 7902943
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3987569,
+  "createdAt": {
+    "$date": "2026-03-06T07:34:01.532Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:34:03.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa836e82b754df243176f1"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "t😄😄😄😄est",
+  "messageType": "file",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/2e8c8f0c-914f-426b-aa44-41ec9099e67c-db.xlsx",
+    "filename": "db.xlsx",
+    "mimeType": "application/octet-stream",
+    "size": 7902943
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3987570,
+  "createdAt": {
+    "$date": "2026-03-06T07:34:06.314Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:34:06.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa837282b754df24317700"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "t😄😄😄😄est",
+  "messageType": "file",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/3bff2c3d-1285-4aba-9654-d21d78ec3659-db.xlsx",
+    "filename": "db.xlsx",
+    "mimeType": "application/octet-stream",
+    "size": 7902943
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3987572,
+  "createdAt": {
+    "$date": "2026-03-06T07:34:10.271Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:34:10.625Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa849782b754df24317714"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": false,
+  "readByUser": true,
+  "externalMsgId": 3987623,
+  "createdAt": {
+    "$date": "2026-03-06T07:39:03.255Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:39:03.473Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aa849f82b754df24317720"
+  },
+  "conversationId": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3987625,
+  "createdAt": {
+    "$date": "2026-03-06T07:39:11.244Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:39:11.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69aadf0e716759e6c36e8c9b"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Тстьсттатвт",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3990904,
+  "createdAt": {
+    "$date": "2026-03-06T14:05:02.485Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:45:18.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac74e7716759e6c36e8d11"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Kartinka prikrepilasi",
+  "messageType": "image",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/ed58ab39-2308-4c00-bcab-f3f6ca5ccfd8-IMG_7689.png",
+    "filename": "IMG_7689.png",
+    "mimeType": "image/png",
+    "size": 883734
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992067,
+  "createdAt": {
+    "$date": "2026-03-07T18:56:39.388Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7532716759e6c36e8d1e"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Esti cartinka",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992068,
+  "createdAt": {
+    "$date": "2026-03-07T18:57:54.803Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-07T18:58:05.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7551716759e6c36e8d2f"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "☺️🙈😜❤️",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992069,
+  "createdAt": {
+    "$date": "2026-03-07T18:58:25.331Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7762716759e6c36e8d46"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Ndm",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992070,
+  "createdAt": {
+    "$date": "2026-03-07T19:07:14.621Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7770716759e6c36e8d52"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "mko",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992071,
+  "createdAt": {
+    "$date": "2026-03-07T19:07:28.694Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-07T19:07:28.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7774716759e6c36e8d5a"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "/start",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992072,
+  "createdAt": {
+    "$date": "2026-03-07T19:07:32.994Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac777f716759e6c36e8d65"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "\\start",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992073,
+  "createdAt": {
+    "$date": "2026-03-07T19:07:43.529Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac77ad716759e6c36e8d70"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Ddfc",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992074,
+  "createdAt": {
+    "$date": "2026-03-07T19:08:29.051Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac77d2716759e6c36e8d7b"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Rffh",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992075,
+  "createdAt": {
+    "$date": "2026-03-07T19:09:06.507Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac77d8716759e6c36e8d87"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "jnk",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992076,
+  "createdAt": {
+    "$date": "2026-03-07T19:09:12.671Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-07T19:09:13.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac77fe716759e6c36e8d8f"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Fcf",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992077,
+  "createdAt": {
+    "$date": "2026-03-07T19:09:50.903Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac780c716759e6c36e8d9a"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Gvbbb",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992078,
+  "createdAt": {
+    "$date": "2026-03-07T19:10:04.593Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7822716759e6c36e8da5"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Ggf",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992079,
+  "createdAt": {
+    "$date": "2026-03-07T19:10:26.251Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7854716759e6c36e8db0"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Jxdmd",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992080,
+  "createdAt": {
+    "$date": "2026-03-07T19:11:16.132Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac7895716759e6c36e8dbb"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Тест строки",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992081,
+  "createdAt": {
+    "$date": "2026-03-07T19:12:21.101Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac78b7716759e6c36e8dc6"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Тест emoji 🙂🤔🫰✅⚠️",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992082,
+  "createdAt": {
+    "$date": "2026-03-07T19:12:55.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ac78d7716759e6c36e8dd1"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "senderRole": "client",
+  "content": "Тест множества строк",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3992083,
+  "createdAt": {
+    "$date": "2026-03-07T19:13:27.513Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T21:42:26.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c096854a6726ffb29d3"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:22:33.012Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c126854a6726ffb29dd"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:22:42.300Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c156854a6726ffb29e7"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:22:45.820Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c196854a6726ffb29f1"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:22:49.187Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c216854a6726ffb29fb"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "Д\nо\nб\nр\nо\n \nп\nо\nж\nа\nл\nо\nв\nа\nт\nь\nПрямая связь с нашей командой.",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:22:57.252Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c236854a6726ffb2a05"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "Д\nо\nб\nр\nо\n \nп\nо\nж\nа\nл\nо\nв\nа\nт\nь\nПрямая связь с нашей командой.",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:22:59.748Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69af2c266854a6726ffb2a0f"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "senderRole": "client",
+  "content": "Д\nо\nб\nр\nо\n \nп\nо\nж\nа\nл\nо\nв\nа\nт\nь\nПрямая связь с нашей командой.",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-09T20:23:02.265Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-09T20:28:27.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afc4c0cc9a20f7dfbbfcb7"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-10T07:14:08.349Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T07:14:08.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afc4eecc9a20f7dfbbfcc6"
+  },
+  "conversationId": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-10T07:14:54.072Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T07:14:54.306Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afd98f618bfb8fc495112c"
+  },
+  "conversationId": {
+    "$oid": "69afd58a639b79c5e026f274"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Hi",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-10T08:42:55.264Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T08:42:55.569Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afd999618bfb8fc495115a"
+  },
+  "conversationId": {
+    "$oid": "69afd58a639b79c5e026f274"
+  },
+  "senderId": {
+    "$oid": "69afd58a618bfb8fc4950f6c"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-10T08:43:05.015Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T08:43:05.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afdbc3618bfb8fc4951352"
+  },
+  "conversationId": {
+    "$oid": "69afd58a639b79c5e026f274"
+  },
+  "senderId": {
+    "$oid": "69afd58a618bfb8fc4950f6c"
+  },
+  "senderRole": "client",
+  "content": "Hi there",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-10T08:52:19.082Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T08:52:19.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afdbdb618bfb8fc49513a9"
+  },
+  "conversationId": {
+    "$oid": "69afd58a639b79c5e026f274"
+  },
+  "senderId": {
+    "$oid": "69afd58a618bfb8fc4950f6c"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-10T08:52:43.107Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T08:52:43.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4323362d56119a4fa9f"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Привет 🤝",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999836,
+  "createdAt": {
+    "$date": "2026-03-10T09:28:18.994Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:49:53.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe46a3362d56119a4faab"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "jhjk",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999849,
+  "createdAt": {
+    "$date": "2026-03-10T09:29:14.968Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:29:26.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4723362d56119a4fab1"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "hjg",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999853,
+  "createdAt": {
+    "$date": "2026-03-10T09:29:22.677Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:29:26.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe47e3362d56119a4fac3"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "ghffg",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999858,
+  "createdAt": {
+    "$date": "2026-03-10T09:29:34.666Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:29:35.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4883362d56119a4facc"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "bhjkgjh",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999860,
+  "createdAt": {
+    "$date": "2026-03-10T09:29:44.659Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:29:44.995Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4923362d56119a4fad5"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "kkhjgl",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999861,
+  "createdAt": {
+    "$date": "2026-03-10T09:29:54.669Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:29:58.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4a43362d56119a4fae7"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test1",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999865,
+  "createdAt": {
+    "$date": "2026-03-10T09:30:12.647Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:30:12.948Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4aa3362d56119a4faf0"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999866,
+  "createdAt": {
+    "$date": "2026-03-10T09:30:18.671Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:30:18.996Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afe4b23362d56119a4faf9"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test 3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 3999868,
+  "createdAt": {
+    "$date": "2026-03-10T09:30:26.648Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:30:29.731Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afea363362d56119a4fb4f"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test webhook message 1773136437",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136437,
+  "createdAt": {
+    "$date": "2026-03-10T09:53:58.183Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afea4e3362d56119a4fb55"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136462,
+  "createdAt": {
+    "$date": "2026-03-10T09:54:22.786Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afebbd94962a075ef12454"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136829,
+  "createdAt": {
+    "$date": "2026-03-10T10:00:29.628Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afebd594962a075ef1245d"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136853,
+  "createdAt": {
+    "$date": "2026-03-10T10:00:53.247Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afebdf94962a075ef12464"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136863,
+  "createdAt": {
+    "$date": "2026-03-10T10:01:03.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afebec94962a075ef12479"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test4",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136875,
+  "createdAt": {
+    "$date": "2026-03-10T10:01:16.124Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afec5f94962a075ef1249d"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test5",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773136990,
+  "createdAt": {
+    "$date": "2026-03-10T10:03:11.217Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:13.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afed9694962a075ef1251d"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test 1",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000342,
+  "createdAt": {
+    "$date": "2026-03-10T10:08:22.763Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T18:11:43.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedb094962a075ef12529"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000347,
+  "createdAt": {
+    "$date": "2026-03-10T10:08:48.816Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:08:49.070Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedba94962a075ef12535"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000353,
+  "createdAt": {
+    "$date": "2026-03-10T10:08:58.632Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:09:06.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedbc94962a075ef1253b"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test4",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000355,
+  "createdAt": {
+    "$date": "2026-03-10T10:09:00.684Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:09:06.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedbe94962a075ef12541"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test5",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000357,
+  "createdAt": {
+    "$date": "2026-03-10T10:09:02.676Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:09:06.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedd094962a075ef12556"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test 6",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000361,
+  "createdAt": {
+    "$date": "2026-03-10T10:09:20.690Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:09:29.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedd294962a075ef1255c"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test7",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000363,
+  "createdAt": {
+    "$date": "2026-03-10T10:09:22.706Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:09:29.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69afedd494962a075ef12562"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test8",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4000364,
+  "createdAt": {
+    "$date": "2026-03-10T10:09:24.679Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T10:09:29.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b150ff392ef805127e3cf0"
+  },
+  "conversationId": {
+    "$oid": "69b150c3639b79c5e026f277"
+  },
+  "senderId": {
+    "$oid": "69b150c3392ef805127e3cd9"
+  },
+  "senderRole": "client",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008482,
+  "createdAt": {
+    "$date": "2026-03-11T11:24:47.408Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T15:33:08.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b1516b392ef805127e3d1d"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "69b14fc5392ef805127e3ccf"
+  },
+  "senderRole": "client",
+  "content": "тест бота Вектор, оч прикольно\n\nотправки по нажатию Enter нет",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008498,
+  "createdAt": {
+    "$date": "2026-03-11T11:26:35.947Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T15:32:48.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b151c4392ef805127e3d39"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Privet",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008505,
+  "createdAt": {
+    "$date": "2026-03-11T11:28:04.419Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:28:04.492Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b151d6392ef805127e3d42"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Ea ubral otpravku po entaru",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008509,
+  "createdAt": {
+    "$date": "2026-03-11T11:28:22.139Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:28:22.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b151e4392ef805127e3d4b"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "kak vTG enter perevodit na novuiu stroku",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008514,
+  "createdAt": {
+    "$date": "2026-03-11T11:28:36.134Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:28:36.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b151ee392ef805127e3d54"
+  },
+  "conversationId": {
+    "$oid": "69b150c3639b79c5e026f277"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Privet",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008517,
+  "createdAt": {
+    "$date": "2026-03-11T11:28:46.119Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:28:46.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b1520a392ef805127e3d5d"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "w",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4008520,
+  "createdAt": {
+    "$date": "2026-03-11T11:29:14.122Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:29:14.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b152fe392ef805127e3d63"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "TUT",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4008544,
+  "createdAt": {
+    "$date": "2026-03-11T11:33:18.286Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:33:18.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b15372392ef805127e3d92"
+  },
+  "conversationId": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Turutu😆",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4008560,
+  "createdAt": {
+    "$date": "2026-03-11T11:35:14.286Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:35:14.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b154f6392ef805127e3da6"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "69b14fc5392ef805127e3ccf"
+  },
+  "senderRole": "client",
+  "content": "ясно",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008627,
+  "createdAt": {
+    "$date": "2026-03-11T11:41:42.311Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T15:32:48.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b1552a392ef805127e3db2"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "u tebea vseo ok",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008634,
+  "createdAt": {
+    "$date": "2026-03-11T11:42:34.285Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:42:34.354Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b15576392ef805127e3dca"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "u tebea vseo ok",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008643,
+  "createdAt": {
+    "$date": "2026-03-11T11:43:50.321Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:43:50.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b1558a392ef805127e3dd3"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "sait na stranite ne plyveot?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008646,
+  "createdAt": {
+    "$date": "2026-03-11T11:44:10.115Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:44:10.201Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b155a2392ef805127e3ddc"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Sait na telefone ne plyveot",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008652,
+  "createdAt": {
+    "$date": "2026-03-11T11:44:34.130Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:44:34.215Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b155cc392ef805127e3de4"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "69b14fc5392ef805127e3ccf"
+  },
+  "senderRole": "client",
+  "content": "на телефоне пока не открывал, на компе все четко, но тяжело по ширине странице размывается",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008658,
+  "createdAt": {
+    "$date": "2026-03-11T11:45:16.989Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T15:32:48.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b155e5392ef805127e3def"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "69b14fc5392ef805127e3ccf"
+  },
+  "senderRole": "client",
+  "content": "и кнопка ентер канеш не хватает, после ТГ привычка по ентеру кликать, думаю у клиентом может быть так же",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008660,
+  "createdAt": {
+    "$date": "2026-03-11T11:45:41.473Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T15:32:48.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b15602392ef805127e3dfb"
+  },
+  "conversationId": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Da esti Ea dumaiu ispolizovati ceasti PK cac reclamu i actii",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4008664,
+  "createdAt": {
+    "$date": "2026-03-11T11:46:10.329Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-11T11:46:10.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b25f997fd0646e1c547549"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "Добрый день",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T06:39:21.947Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T08:49:16.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b25fce7fd0646e1c54756a"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "Привет",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T06:40:14.686Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T08:49:16.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b25fd17fd0646e1c547574"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "Ау",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T06:40:17.946Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T08:49:16.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b2606c7fd0646e1c5475b0"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test 89",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T06:42:52.307Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:29:32.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b26085392ef805127e3e85"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "привет",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015091,
+  "createdAt": {
+    "$date": "2026-03-12T06:43:17.666Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T08:49:16.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b26093392ef805127e3e92"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Privet",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015096,
+  "createdAt": {
+    "$date": "2026-03-12T06:43:31.633Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T06:43:31.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b26143392ef805127e3eb6"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Сделать заказ?",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015162,
+  "createdAt": {
+    "$date": "2026-03-12T06:46:27.548Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T06:46:27.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b2615b392ef805127e3ecd"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "",
+  "messageType": "file",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/29f4e189-0f7a-42a1-b534-f29a2c230c35-____________________.xlsx",
+    "filename": "Форма заявки на чеки.xlsx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "size": 150405
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015170,
+  "createdAt": {
+    "$date": "2026-03-12T06:46:51.101Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T08:49:16.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b261cb392ef805127e3f36"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Приняли",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015189,
+  "createdAt": {
+    "$date": "2026-03-12T06:48:43.596Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T06:48:43.627Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b261d3392ef805127e3f48"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "tut",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015191,
+  "createdAt": {
+    "$date": "2026-03-12T06:48:51.413Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T06:48:51.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b261e5392ef805127e3f51"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "ок",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015195,
+  "createdAt": {
+    "$date": "2026-03-12T06:49:09.397Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T06:49:09.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b26215392ef805127e3f72"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "recall",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4015201,
+  "createdAt": {
+    "$date": "2026-03-12T06:49:57.352Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T06:49:57.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b27db97fd0646e1c5475fb"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Pumpum",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T08:47:53.095Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:29:32.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b27dc07fd0646e1c547605"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "mkcdw",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T08:48:00.411Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:29:32.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b2b8bb7fd0646e1c547639"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test evening",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T12:59:39.542Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:29:32.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b2b90b7fd0646e1c547658"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Fresds",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-12T13:00:59.432Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:29:32.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3aee3b703af52d41b951d"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test1",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383395,
+  "createdAt": {
+    "$date": "2026-03-13T06:29:55.333Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3af14b703af52d41b9548"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383444,
+  "createdAt": {
+    "$date": "2026-03-13T06:30:44.340Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3af27b703af52d41b9558"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383463,
+  "createdAt": {
+    "$date": "2026-03-13T06:31:03.744Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3af6fb703af52d41b9581"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test4",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383535,
+  "createdAt": {
+    "$date": "2026-03-13T06:32:15.507Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3af99b703af52d41b95a0"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test5",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383577,
+  "createdAt": {
+    "$date": "2026-03-13T06:32:57.841Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3afaab703af52d41b95a9"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test6",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383594,
+  "createdAt": {
+    "$date": "2026-03-13T06:33:14.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3afc1b703af52d41b95bc"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test7",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383617,
+  "createdAt": {
+    "$date": "2026-03-13T06:33:37.794Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3afe8b703af52d41b95ce"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test8",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383656,
+  "createdAt": {
+    "$date": "2026-03-13T06:34:16.323Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:16.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3aff3b703af52d41b95d7"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test9",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383667,
+  "createdAt": {
+    "$date": "2026-03-13T06:34:27.329Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:41.094Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b003b703af52d41b95f7"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test10",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383683,
+  "createdAt": {
+    "$date": "2026-03-13T06:34:43.979Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:44.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b00cb703af52d41b9600"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test11",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773383692,
+  "createdAt": {
+    "$date": "2026-03-13T06:34:52.504Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:34:52.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b158b0afd7af48eb9ccb"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Test1",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4021069,
+  "createdAt": {
+    "$date": "2026-03-13T06:40:24.690Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:40:24.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b165b0afd7af48eb9cd9"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "69a06afbee733d4a6c6271a5"
+  },
+  "senderRole": "client",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4021073,
+  "createdAt": {
+    "$date": "2026-03-13T06:40:37.504Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:40:37.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b174b0afd7af48eb9ce7"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-13T06:40:52.335Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:40:52.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b180b703af52d41b961d"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test4",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-13T06:41:04.597Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:41:04.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3b198b703af52d41b9633"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test12",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773384088,
+  "createdAt": {
+    "$date": "2026-03-13T06:41:28.628Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T06:41:28.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3c092b703af52d41b9642"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test13",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773387922,
+  "createdAt": {
+    "$date": "2026-03-13T07:45:22.697Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T07:45:22.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3c3195b1ea2e53b22f46b"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test14",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773388568,
+  "createdAt": {
+    "$date": "2026-03-13T07:56:09.028Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T07:56:09.256Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3ce8d2a3a73807f5d6169"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test reply to a message",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69b2b8bb7fd0646e1c547639"
+    },
+    "senderName": "Аркадии",
+    "content": "Test evening",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-13T08:45:01.545Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T14:27:27.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b3d547de2271431096e053"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test15",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773393223,
+  "createdAt": {
+    "$date": "2026-03-13T09:13:43.987Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T14:27:27.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b41edca7e8b6510fead758"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test otveta",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69b3d547de2271431096e053"
+    },
+    "senderName": "Admin",
+    "content": "Test15",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4024745,
+  "createdAt": {
+    "$date": "2026-03-13T14:27:40.744Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-13T14:27:40.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94325de2271431096e113"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "frge",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4052530,
+  "createdAt": {
+    "$date": "2026-03-17T12:03:49.889Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:53:17.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94335de2271431096e119"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "frfwr",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4052532,
+  "createdAt": {
+    "$date": "2026-03-17T12:04:05.599Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:04:05.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b9433fde2271431096e11f"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4052535,
+  "createdAt": {
+    "$date": "2026-03-17T12:04:15.600Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:04:15.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94349de2271431096e125"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4052539,
+  "createdAt": {
+    "$date": "2026-03-17T12:04:25.805Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:04:25.805Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94649de2271431096e12b"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "test4",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4052647,
+  "createdAt": {
+    "$date": "2026-03-17T12:17:13.757Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:17:13.757Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94c97de2271431096e131"
+  },
+  "conversationId": {
+    "$oid": "69a06afb639b79c5e026f246"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test ot barina",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": 4052948,
+  "createdAt": {
+    "$date": "2026-03-17T12:44:07.761Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:44:07.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94ebda7e8b6510fead7e1"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Privet",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69b94325de2271431096e113"
+    },
+    "senderName": "Admin",
+    "content": "frge",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4053045,
+  "createdAt": {
+    "$date": "2026-03-17T12:53:17.657Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:11.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b94f13de2271431096e137"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Privet na privet",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4053056,
+  "createdAt": {
+    "$date": "2026-03-17T12:54:43.731Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T12:54:43.860Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b9873ade2271431096e159"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:54:18.169Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b98743de2271431096e15e"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:54:27.908Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b98749de2271431096e163"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "helo",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:54:33.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b98794de2271431096e177"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:55:48.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b987a0de2271431096e17c"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:56:00.794Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b987b0de2271431096e182"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "",
+  "messageType": "image",
+  "attachment": {
+    "url": "https://fpftswhgz950xryi.public.blob.vercel-storage.com/chat-attachments/0e2a828c-e860-4b84-8609-6cd4656a9fc1-photo_2026-02-27_10-57-25.jpg",
+    "filename": "photo_2026-02-27_10-57-25.jpg",
+    "mimeType": "image/jpeg",
+    "size": 72704
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:56:16.749Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b987daa7e8b6510fead8a3"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "cdd\\",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:56:58.216Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:11.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b98813de2271431096e197"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:57:55.118Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b98848a7e8b6510fead8cb"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "cfd",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T16:58:48.339Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:11.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b988c3a7e8b6510fead8e1"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "dewc",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-17T17:00:51.824Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-17T19:25:11.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba5d75d7dfe36641fcfb23"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test0318",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-18T08:08:21.798Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:22:10.569Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba60c391769190d0c5da80"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba5d75d7dfe36641fcfb23"
+    },
+    "senderName": "Аркадии",
+    "content": "Test0318",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-18T08:22:27.207Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:22:27.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba6105abdea297d52ba6e9"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Another test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-18T08:23:33.605Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:23:33.754Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba610fabdea297d52ba6f4"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Reply",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69b988c3a7e8b6510fead8e1"
+    },
+    "senderName": "Аркадии",
+    "content": "dewc",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-18T08:23:43.716Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:23:43.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba6122abdea297d52ba6fe"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test1",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773822241,
+  "createdAt": {
+    "$date": "2026-03-18T08:24:02.173Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:24:02.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba6146abdea297d52ba707"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773822277,
+  "createdAt": {
+    "$date": "2026-03-18T08:24:38.086Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:24:38.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba6161abdea297d52ba711"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Reply",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba5d75d7dfe36641fcfb23"
+    },
+    "senderName": "Аркадии",
+    "content": "Test0318",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-18T08:25:05.326Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:25:05.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba620babdea297d52ba71c"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test reply",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba5d75d7dfe36641fcfb23"
+    },
+    "senderName": "Аркадии",
+    "content": "Test0318",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-18T08:27:55.689Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:27:55.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba637e8659cba7bbb588a3"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test reply",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba5d75d7dfe36641fcfb23"
+    },
+    "senderName": "Аркадии",
+    "content": "Test0318",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4057244,
+  "createdAt": {
+    "$date": "2026-03-18T08:34:06.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:34:07.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba63ad16f2e17a8c81b17e"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test message",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4057255,
+  "createdAt": {
+    "$date": "2026-03-18T08:34:53.694Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:34:54.031Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba63ba8659cba7bbb588b3"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 1773822905,
+  "createdAt": {
+    "$date": "2026-03-18T08:35:06.040Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T08:35:06.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e4616f2e17a8c81b224"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Ner",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059235,
+  "createdAt": {
+    "$date": "2026-03-18T11:36:38.297Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e6016f2e17a8c81b23a"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "tut",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba63ba8659cba7bbb588b3"
+    },
+    "senderName": "Admin",
+    "content": "Test3",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059240,
+  "createdAt": {
+    "$date": "2026-03-18T11:37:04.994Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e828659cba7bbb588bd"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba8e4616f2e17a8c81b224"
+    },
+    "senderName": "Клиент",
+    "content": "Ner",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059249,
+  "createdAt": {
+    "$date": "2026-03-18T11:37:38.044Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T11:37:38.418Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e9716f2e17a8c81b255"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "q",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059254,
+  "createdAt": {
+    "$date": "2026-03-18T11:37:59.379Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e9916f2e17a8c81b263"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "q",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059255,
+  "createdAt": {
+    "$date": "2026-03-18T11:38:01.185Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e9b16f2e17a8c81b271"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "q",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059256,
+  "createdAt": {
+    "$date": "2026-03-18T11:38:03.539Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8e9d16f2e17a8c81b27f"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "q",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059259,
+  "createdAt": {
+    "$date": "2026-03-18T11:38:05.970Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8eba16f2e17a8c81b28f"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test replay Client",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba8e9d16f2e17a8c81b27f"
+    },
+    "senderName": "Аркадии",
+    "content": "q",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059267,
+  "createdAt": {
+    "$date": "2026-03-18T11:38:34.428Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba8ed58659cba7bbb588c4"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test Reply Operator",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba8e9d16f2e17a8c81b27f"
+    },
+    "senderName": "Клиент",
+    "content": "q",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059272,
+  "createdAt": {
+    "$date": "2026-03-18T11:39:01.845Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T11:39:02.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba919c16f2e17a8c81b2cc"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "Привет",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059404,
+  "createdAt": {
+    "$date": "2026-03-18T11:50:52.515Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:30.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba928016f2e17a8c81b2f6"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "Я тут",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059452,
+  "createdAt": {
+    "$date": "2026-03-18T11:54:40.495Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:30.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba93b416f2e17a8c81b31b"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "хай",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059524,
+  "createdAt": {
+    "$date": "2026-03-18T11:59:48.935Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:30.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba93dc16f2e17a8c81b32b"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": ".",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059530,
+  "createdAt": {
+    "$date": "2026-03-18T12:00:28.258Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:30.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba941016f2e17a8c81b33c"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test\nOt IT",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059537,
+  "createdAt": {
+    "$date": "2026-03-18T12:01:20.878Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba997f16f2e17a8c81b359"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "хорошо",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69b26215392ef805127e3f72"
+    },
+    "senderName": "Admin",
+    "content": "recall",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059747,
+  "createdAt": {
+    "$date": "2026-03-18T12:24:31.070Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:30.450Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba998f8659cba7bbb588cb"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "отлично",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69ba93b416f2e17a8c81b31b"
+    },
+    "senderName": "Клиент",
+    "content": "хай",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059748,
+  "createdAt": {
+    "$date": "2026-03-18T12:24:47.737Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T12:24:47.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba9a0116f2e17a8c81b390"
+  },
+  "conversationId": {
+    "$oid": "69ba99e7639b79c5e026f289"
+  },
+  "senderId": {
+    "$oid": "69ba99e716f2e17a8c81b379"
+  },
+  "senderRole": "client",
+  "content": "Privet",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059762,
+  "createdAt": {
+    "$date": "2026-03-18T12:26:41.869Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:29.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69ba9a0916f2e17a8c81b39c"
+  },
+  "conversationId": {
+    "$oid": "69ba99e7639b79c5e026f289"
+  },
+  "senderId": {
+    "$oid": "69ba99e716f2e17a8c81b379"
+  },
+  "senderRole": "client",
+  "content": "Novyi klient",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4059764,
+  "createdAt": {
+    "$date": "2026-03-18T12:26:49.225Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:29.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69bb894216f2e17a8c81b6e6"
+  },
+  "conversationId": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "senderId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "senderRole": "client",
+  "content": "привет",
+  "messageType": "text",
+  "readByAdmin": false,
+  "readByUser": true,
+  "externalMsgId": 4062084,
+  "createdAt": {
+    "$date": "2026-03-19T05:27:30.965Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T05:27:31.131Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69bba41216f2e17a8c81b739"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Test from Copy",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4063530,
+  "createdAt": {
+    "$date": "2026-03-19T07:21:54.375Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:40.893Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69bba42b8659cba7bbb58908"
+  },
+  "conversationId": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "senderId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "senderRole": "client",
+  "content": "Test from original",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4063534,
+  "createdAt": {
+    "$date": "2026-03-19T07:22:19.642Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:30:39.824Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69bba67d8659cba7bbb5898e"
+  },
+  "conversationId": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "senderId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "senderRole": "client",
+  "content": "Тест фром оригин",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4063617,
+  "createdAt": {
+    "$date": "2026-03-19T07:32:13.449Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T08:13:53.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c2a10716f2e17a8c81bfda"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "69c2a0d016f2e17a8c81bfc3"
+  },
+  "senderRole": "client",
+  "content": "Privet ot clienta",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4117619,
+  "createdAt": {
+    "$date": "2026-03-24T14:34:47.652Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T08:18:42.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c2a1258659cba7bbb589c1"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Privet ot operatora",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4117624,
+  "createdAt": {
+    "$date": "2026-03-24T14:35:17.950Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-24T14:35:18.076Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c4ebfb7adbabafcd4a0089"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T08:19:07.447Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T08:19:07.447Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c4ec5d7adbabafcd4a00a4"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T08:20:45.749Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T08:20:45.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c4ef937adbabafcd4a00b6"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T08:34:27.729Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T08:34:27.729Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c4efc77adbabafcd4a00c8"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T08:35:19.254Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T08:35:19.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c4f32a84a600ae6b6a43b9"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T08:49:46.749Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T08:49:46.749Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c50a15066b5da8464b9df2"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T10:27:33.488Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T10:27:33.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c5368df0e865483c812c99"
+  },
+  "conversationId": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": false,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T13:37:17.786Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T13:37:17.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c5453e8659cba7bbb58a06"
+  },
+  "conversationId": {
+    "$oid": "69c54522639b79c5e026f28c"
+  },
+  "senderId": {
+    "$oid": "69c54522f0e865483c812cb8"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4137991,
+  "createdAt": {
+    "$date": "2026-03-26T14:39:58.282Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:40:18.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c545508659cba7bbb58a12"
+  },
+  "conversationId": {
+    "$oid": "69c54522639b79c5e026f28c"
+  },
+  "senderId": {
+    "$oid": "69c54522f0e865483c812cb8"
+  },
+  "senderRole": "client",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4137996,
+  "createdAt": {
+    "$date": "2026-03-26T14:40:16.268Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:40:18.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c545588659cba7bbb58a1d"
+  },
+  "conversationId": {
+    "$oid": "69c54522639b79c5e026f28c"
+  },
+  "senderId": {
+    "$oid": "69c54522f0e865483c812cb8"
+  },
+  "senderRole": "client",
+  "content": "Test3",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4137998,
+  "createdAt": {
+    "$date": "2026-03-26T14:40:24.026Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:40:24.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c54579f0e865483c812ce5"
+  },
+  "conversationId": {
+    "$oid": "69c54522639b79c5e026f28c"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T14:40:57.750Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:40:57.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c5462ef0e865483c812d28"
+  },
+  "conversationId": {
+    "$oid": "69c545f5639b79c5e026f28d"
+  },
+  "senderId": {
+    "$oid": "69c545f5f0e865483c812d0e"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T14:43:58.422Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:44:23.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c54644f0e865483c812d47"
+  },
+  "conversationId": {
+    "$oid": "69c545f5639b79c5e026f28d"
+  },
+  "senderId": {
+    "$oid": "69c545f5f0e865483c812d0e"
+  },
+  "senderRole": "client",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T14:44:20.416Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:44:23.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c5464ef0e865483c812d5e"
+  },
+  "conversationId": {
+    "$oid": "69c545f5639b79c5e026f28d"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T14:44:30.676Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T14:44:30.769Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c54f6adc7b30926e2cc3ed"
+  },
+  "conversationId": {
+    "$oid": "69c54f2a639b79c5e026f28e"
+  },
+  "senderId": {
+    "$oid": "69c54f2adc7b30926e2cc3d3"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T15:23:22.074Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T15:24:12.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c54fa1dc7b30926e2cc41e"
+  },
+  "conversationId": {
+    "$oid": "69c54f2a639b79c5e026f28e"
+  },
+  "senderId": {
+    "$oid": "69c54f2adc7b30926e2cc3d3"
+  },
+  "senderRole": "client",
+  "content": "Test2",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T15:24:17.199Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T15:24:17.283Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c56fcbccc65eb11d894b25"
+  },
+  "conversationId": {
+    "$oid": "69c56fb0639b79c5e026f290"
+  },
+  "senderId": {
+    "$oid": "69c56fb0ccc65eb11d894b02"
+  },
+  "senderRole": "client",
+  "content": "Hello",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-26T17:41:31.879Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T07:53:56.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c57f47b5a9044b579adf31"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "69c57f2fb5a9044b579adf17"
+  },
+  "senderRole": "client",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4139086,
+  "createdAt": {
+    "$date": "2026-03-26T18:47:35.859Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T18:49:41.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c57fcab5a9044b579adf6c"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4139094,
+  "createdAt": {
+    "$date": "2026-03-26T18:49:46.044Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T18:49:46.156Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c5ffd7b5a9044b579adfc5"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Esti Test",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4139563,
+  "createdAt": {
+    "$date": "2026-03-27T03:56:07.568Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T06:08:03.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c60005b5a9044b579adfcc"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Answer on message",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69c5ffd7b5a9044b579adfc5"
+    },
+    "senderName": "Оператор",
+    "content": "Esti Test",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4139564,
+  "createdAt": {
+    "$date": "2026-03-27T03:56:53.507Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T06:08:03.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c638f4b5a9044b579ae028"
+  },
+  "conversationId": {
+    "$oid": "69c638da639b79c5e026f292"
+  },
+  "senderId": {
+    "$oid": "69c638dab5a9044b579ae00e"
+  },
+  "senderRole": "client",
+  "content": "TEST",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4141396,
+  "createdAt": {
+    "$date": "2026-03-27T07:59:48.271Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T07:52:09.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c63923b5a9044b579ae039"
+  },
+  "conversationId": {
+    "$oid": "69c638da639b79c5e026f292"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "answer on test",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69c638f4b5a9044b579ae028"
+    },
+    "senderName": "Iliea",
+    "content": "TEST",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4141401,
+  "createdAt": {
+    "$date": "2026-03-27T08:00:35.525Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T08:00:35.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c63ef8b5a9044b579ae04c"
+  },
+  "conversationId": {
+    "$oid": "69c638da639b79c5e026f292"
+  },
+  "senderId": {
+    "$oid": "69c638dab5a9044b579ae00e"
+  },
+  "senderRole": "client",
+  "content": "Try answer",
+  "messageType": "text",
+  "replyTo": {
+    "messageId": {
+      "$oid": "69c638f4b5a9044b579ae028"
+    },
+    "senderName": "Iliea",
+    "content": "TEST",
+    "messageType": "text"
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4141728,
+  "createdAt": {
+    "$date": "2026-03-27T08:25:28.056Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T07:52:09.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c63f0ab5a9044b579ae05b"
+  },
+  "conversationId": {
+    "$oid": "69c638da639b79c5e026f292"
+  },
+  "senderId": {
+    "$oid": "69c638dab5a9044b579ae00e"
+  },
+  "senderRole": "client",
+  "content": "/start",
+  "messageType": "text",
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4141740,
+  "createdAt": {
+    "$date": "2026-03-27T08:25:46.919Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T07:52:09.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c788ee60bc29ef655d9ac7"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "",
+  "messageType": "image",
+  "attachment": {
+    "url": "/chat-attachments/8cbce778-cc2a-439d-b885-b5d2eac8ee5e-1040315976.jpg",
+    "filename": "1040315976.jpg",
+    "mimeType": "image/jpeg",
+    "size": 92979
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-28T07:53:18.475Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T09:11:58.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c78cd957f6031ca2818d42"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "",
+  "messageType": "image",
+  "attachment": {
+    "url": "/api/files/chat-attachments/80f4ee07-47ee-4356-b8ac-747908964b6f-1040315976.jpg",
+    "filename": "1040315976.jpg",
+    "mimeType": "image/jpeg",
+    "size": 92979
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-28T08:10:01.702Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T09:11:58.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c78d1357f6031ca2818d72"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test message with file",
+  "messageType": "image",
+  "attachment": {
+    "url": "/api/files/chat-attachments/21d46ee9-ce19-4818-9386-97e927780641-1040315976.jpg",
+    "filename": "1040315976.jpg",
+    "mimeType": "image/jpeg",
+    "size": 92979
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": null,
+  "createdAt": {
+    "$date": "2026-03-28T08:10:59.617Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T09:11:58.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c78f5e50674d0f4c6f58e1"
+  },
+  "conversationId": {
+    "$oid": "69c57f2f639b79c5e026f291"
+  },
+  "senderId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "senderRole": "admin",
+  "content": "Test message with a photo",
+  "messageType": "image",
+  "attachment": {
+    "url": "/api/files/chat-attachments/fd12e984-c50f-4139-906c-12e1d4ab2940-1040315976.jpg",
+    "filename": "1040315976.jpg",
+    "mimeType": "image/jpeg",
+    "size": 92979
+  },
+  "readByAdmin": true,
+  "readByUser": true,
+  "externalMsgId": 4146983,
+  "createdAt": {
+    "$date": "2026-03-28T08:20:46.385Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T09:11:58.691Z"
+  },
+  "__v": 0
+}]

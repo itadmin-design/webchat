@@ -1,0 +1,367 @@
+[{
+  "_id": {
+    "$oid": "699eb7baeb9c8f1eae1b6712"
+  },
+  "userId": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "lastMessagePreview": "fvef",
+  "unreadByAdmin": 0,
+  "unreadByUser": 8,
+  "status": "active",
+  "lastMessageAt": {
+    "$date": "2026-02-26T16:58:01.048Z"
+  },
+  "createdAt": {
+    "$date": "2026-02-25T08:50:02.560Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-26T15:47:33.985Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "699ef1f1040f9b083b880cb5"
+  },
+  "userId": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-25T12:58:25.826Z"
+  },
+  "lastMessageAt": {
+    "$date": "2026-02-26T16:17:10.546Z"
+  },
+  "lastMessagePreview": "Yep, it is!",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-02-26T19:42:32.431Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69a07510639b79c5e026f249"
+  },
+  "userId": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-02-26T16:30:08.595Z"
+  },
+  "lastMessageAt": {
+    "$date": "2026-03-06T07:39:11.249Z"
+  },
+  "lastMessagePreview": "test",
+  "status": "active",
+  "unreadByAdmin": 3,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-06T07:43:17.404Z"
+  },
+  "externalChatId": 133388
+},
+{
+  "_id": {
+    "$oid": "69aadce2639b79c5e026f258"
+  },
+  "userId": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-06T13:55:46.940Z"
+  },
+  "externalChatId": 133937,
+  "lastMessageAt": {
+    "$date": "2026-03-11T11:35:14.297Z"
+  },
+  "lastMessagePreview": "Turutu😆",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 3,
+  "updatedAt": {
+    "$date": "2026-03-13T08:44:07.114Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69aade3b639b79c5e026f25a"
+  },
+  "userId": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-06T14:01:31.426Z"
+  },
+  "externalChatId": 133458,
+  "lastMessageAt": {
+    "$date": "2026-03-19T07:32:13.452Z"
+  },
+  "lastMessagePreview": "Тест фром оригин",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-22T16:19:49.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69af29b8639b79c5e026f25b"
+  },
+  "userId": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-09T20:12:40.751Z"
+  },
+  "externalChatId": null,
+  "lastMessageAt": {
+    "$date": "2026-03-10T07:14:54.117Z"
+  },
+  "lastMessagePreview": "Hi",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-10T09:00:39.882Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69afc6aa639b79c5e026f269"
+  },
+  "userId": {
+    "$oid": "69afc6aacc9a20f7dfbbfd39"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-10T07:22:18.378Z"
+  },
+  "externalChatId": null,
+  "lastMessageAt": {
+    "$date": "2026-03-10T07:22:18.379Z"
+  },
+  "lastMessagePreview": "",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-13T08:44:01.347Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69afd58a639b79c5e026f274"
+  },
+  "userId": {
+    "$oid": "69afd58a618bfb8fc4950f6c"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-10T08:25:46.798Z"
+  },
+  "externalChatId": null,
+  "lastMessageAt": {
+    "$date": "2026-03-10T08:52:43.184Z"
+  },
+  "lastMessagePreview": "Hello",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-10T14:17:30.628Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69b14fc5639b79c5e026f276"
+  },
+  "userId": {
+    "$oid": "69b14fc5392ef805127e3ccf"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-11T11:19:33.098Z"
+  },
+  "externalChatId": 134491,
+  "lastMessageAt": {
+    "$date": "2026-03-11T11:46:10.337Z"
+  },
+  "lastMessagePreview": "Da esti Ea dumaiu ispolizovati ceasti PK cac reclamu i actii",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-28T07:53:59.522Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69b150c3639b79c5e026f277"
+  },
+  "userId": {
+    "$oid": "69b150c3392ef805127e3cd9"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-11T11:23:47.068Z"
+  },
+  "externalChatId": 134490,
+  "lastMessageAt": {
+    "$date": "2026-03-11T11:28:46.126Z"
+  },
+  "lastMessagePreview": "Privet",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-13T08:44:03.230Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69b25f72639b79c5e026f279"
+  },
+  "userId": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-12T06:38:42.010Z"
+  },
+  "externalChatId": 134555,
+  "lastMessageAt": {
+    "$date": "2026-03-19T05:27:30.986Z"
+  },
+  "lastMessagePreview": "привет",
+  "status": "active",
+  "unreadByAdmin": 1,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-19T05:27:31.075Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69b98709639b79c5e026f288"
+  },
+  "userId": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-17T16:53:29.614Z"
+  },
+  "externalChatId": 137455,
+  "lastMessageAt": {
+    "$date": "2026-03-19T07:22:19.647Z"
+  },
+  "lastMessagePreview": "Test from original",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-19T07:31:03.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ba99e7639b79c5e026f289"
+  },
+  "userId": {
+    "$oid": "69ba99e716f2e17a8c81b379"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-18T12:26:15.116Z"
+  },
+  "externalChatId": 135195,
+  "lastMessageAt": {
+    "$date": "2026-03-18T12:26:49.251Z"
+  },
+  "lastMessagePreview": "Novyi klient",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-18T16:34:29.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69bb07ef639b79c5e026f28a"
+  },
+  "userId": {
+    "$oid": "69bb07ef16f2e17a8c81b464"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-18T20:15:43.982Z"
+  },
+  "externalChatId": null,
+  "lastMessageAt": {
+    "$date": "2026-03-18T20:15:43.982Z"
+  },
+  "lastMessagePreview": "",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-18T20:15:43.982Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c2a0d0639b79c5e026f28b"
+  },
+  "userId": {
+    "$oid": "69c2a0d016f2e17a8c81bfc3"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-24T14:33:52.599Z"
+  },
+  "externalChatId": 145317,
+  "lastMessageAt": {
+    "$date": "2026-03-26T13:37:17.790Z"
+  },
+  "lastMessagePreview": "Test",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 7,
+  "updatedAt": {
+    "$date": "2026-03-26T14:40:12.659Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c638da639b79c5e026f292"
+  },
+  "userId": {
+    "$oid": "69c638dab5a9044b579ae00e"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-03-27T07:59:22.101Z"
+  },
+  "externalChatId": 159352,
+  "externalCode": "Б57671",
+  "lastMessageAt": {
+    "$date": "2026-03-27T08:25:46.926Z"
+  },
+  "lastMessagePreview": "/start",
+  "status": "active",
+  "unreadByAdmin": 0,
+  "unreadByUser": 0,
+  "updatedAt": {
+    "$date": "2026-03-28T09:26:09.969Z"
+  }
+}]

@@ -1,0 +1,406 @@
+[{
+  "_id": {
+    "$oid": "699eb43cf7384c931f66f0a7"
+  },
+  "email": "admin@admin.com",
+  "name": "Admin",
+  "password": "$2b$12$24C3ZM5i.xNXa4/jRSwxQubz5K.jjWkCmO12bhvCsVs5BJswknktO",
+  "role": "admin",
+  "status": "active",
+  "createdAt": {
+    "$date": "2026-02-25T08:35:08.288Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-28T09:26:02.763Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-28T09:26:02.733Z"
+  },
+  "lastLoginIp": "—",
+  "lastLoginUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+  "lastLoginCity": "Vienna",
+  "lastLoginCountry": "Austria"
+},
+{
+  "_id": {
+    "$oid": "699ef1f17e954b0221aa98cd"
+  },
+  "email": "dan29620@gmail.com",
+  "name": "Dan",
+  "password": "$2b$12$Gw3dJ19jfx5bpZ7MRReMe.p1025v/prPKVhtuS2tBQLB5oeTjjfTC",
+  "company": "Dan Corp",
+  "role": "client",
+  "status": "active",
+  "createdAt": {
+    "$date": "2026-02-25T12:58:25.821Z"
+  },
+  "updatedAt": {
+    "$date": "2026-02-26T19:42:32.400Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-02-26T19:42:32.370Z"
+  },
+  "lastLoginIp": "111.21.10.52",
+  "lastLoginUserAgent": "—",
+  "lastLoginCity": "Warsaw",
+  "lastLoginCountry": "Poland"
+},
+{
+  "_id": {
+    "$oid": "69a075109fe951c9ca98e614"
+  },
+  "email": "webproduct2@gmail.com",
+  "name": "internal",
+  "password": "$2b$12$wq./ab2KzynAHr7vVkEHP.mZB5YIx98QNb6/aQwdM2oWGVMIkT9FS",
+  "company": "test",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-02-26T16:30:08.586Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-06T07:43:17.101Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-06T07:43:17.075Z"
+  },
+  "lastLoginIp": "142.93.164.182",
+  "lastLoginUserAgent": "—",
+  "lastLoginCity": "Frankfurt am Main",
+  "lastLoginCountry": "Germany"
+},
+{
+  "_id": {
+    "$oid": "69aadce2716759e6c36e8c1b"
+  },
+  "email": "admin1@webinfo.cc",
+  "name": "Илия",
+  "password": "$2b$12$MUX9HnfNEjPZOPHKT95dOO3R/XyFFam3e1VC4vM6vICqr0FTyq3K.",
+  "phone": "74952552554",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-06T13:55:46.928Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:28:07.498Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-10T09:28:07.430Z"
+  },
+  "lastLoginIp": "116.109.161.214",
+  "lastLoginUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.38 Mobile/15E148 Safari/604.1",
+  "lastLoginCity": "Rach Gia",
+  "lastLoginCountry": "Vietnam",
+  "company": ""
+},
+{
+  "_id": {
+    "$oid": "69aade3b716759e6c36e8c6a"
+  },
+  "email": "admin2@webinfo.cc",
+  "name": "Аркадии",
+  "password": "$2b$12$uQYCmSKyxLWTRnhHItDpk.9va3RDWW93moziLEkQmopD357tLpJ6y",
+  "phone": "+74952552554",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-06T14:01:31.384Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-22T16:19:49.714Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-22T16:19:49.582Z"
+  },
+  "lastLoginIp": "5.32.172.46",
+  "lastLoginUserAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/146.0.7680.151 Mobile/15E148 Safari/604.1",
+  "lastLoginCity": "Chisinau",
+  "lastLoginCountry": "Moldova"
+},
+{
+  "_id": {
+    "$oid": "69af29b86854a6726ffb2990"
+  },
+  "email": "ivan1212@gmail.com",
+  "name": "Iv",
+  "password": "$2b$12$4FwmkD46OYPp9Y7C0xWyzeKivRO.whScfvhGpuCYOYbvCUV6rFB2e",
+  "phone": "1213231",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-09T20:12:40.708Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T07:22:30.589Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-10T07:22:30.588Z"
+  },
+  "lastLoginIp": "::1",
+  "lastLoginUserAgent": ""
+},
+{
+  "_id": {
+    "$oid": "69afc6aacc9a20f7dfbbfd39"
+  },
+  "email": "dan1212@gmail.com",
+  "name": "Dan",
+  "password": "$2b$12$jJYQMCvPaxjhaIXVBif3CeTSdW3hiwNTB0YLufFRWUI4IFz1.l7/6",
+  "phone": "1291201",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-10T07:22:18.312Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T07:22:58.060Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-10T07:22:58.059Z"
+  },
+  "lastLoginIp": "::1",
+  "lastLoginUserAgent": "—",
+  "company": ""
+},
+{
+  "_id": {
+    "$oid": "69afd58a618bfb8fc4950f6c"
+  },
+  "email": "dan3434@gmail.com",
+  "name": "Dan",
+  "password": "$2b$12$0DYUwiEgMHxK6XWnJYYYX.9/Dlgo96QAdDKyM2m.kcIjebYCeIh4q",
+  "phone": "5924929",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "utmSource": "telegram",
+  "utmMedium": "bot",
+  "utmCampaign": "test",
+  "createdAt": {
+    "$date": "2026-03-10T08:25:46.734Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-10T09:09:15.103Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-10T09:09:15.102Z"
+  },
+  "lastLoginIp": "::1",
+  "lastLoginUserAgent": "—"
+},
+{
+  "_id": {
+    "$oid": "69b14fc5392ef805127e3ccf"
+  },
+  "email": "markethead2-m@foxentra.com",
+  "name": "vctr",
+  "password": "$2b$12$UvMqrVvA5.XF35MR5sfrdecG1w/HGzQz3X.67Tq36pHQPYOvDs45q",
+  "phone": "+7 999 999 55 44",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-11T11:19:33.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T15:59:33.847Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-12T15:59:33.813Z"
+  },
+  "lastLoginIp": "81.39.26.44",
+  "lastLoginUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 YaBrowser/25.12.0.0 Safari/537.36",
+  "lastLoginCity": "A Coruña",
+  "lastLoginCountry": "Spain"
+},
+{
+  "_id": {
+    "$oid": "69b150c3392ef805127e3cd9"
+  },
+  "email": "master-m@foxentra.com",
+  "name": "Master",
+  "password": "$2b$12$p.ooNyISIl34m4Ty0fP7hOfcm08dEe6cdFLmcVpcP8vHSQ2pSRi2i",
+  "phone": "+777777777",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-11T11:23:47.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-12T13:08:24.934Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-12T13:08:24.869Z"
+  },
+  "lastLoginIp": "188.40.24.151",
+  "lastLoginUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "lastLoginCity": "Falkenstein",
+  "lastLoginCountry": "Germany"
+},
+{
+  "_id": {
+    "$oid": "69b25f727fd0646e1c54752e"
+  },
+  "email": "irina-n@foxentra.com",
+  "name": "Светлана",
+  "password": "$2b$12$40thwcUkmtcj4jVOnSIyyeDZu8js4oaU3yO0SjlwxY2ZPDYMiWhem",
+  "phone": "8999999999",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-12T06:38:42.006Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T05:27:26.300Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-19T05:27:26.284Z"
+  },
+  "lastLoginIp": "188.40.24.151",
+  "lastLoginUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "lastLoginCity": "Falkenstein",
+  "lastLoginCountry": "Germany"
+},
+{
+  "_id": {
+    "$oid": "69b98709de2271431096e13f"
+  },
+  "email": "admin3@webinfo.cc",
+  "name": "internal",
+  "password": "$2b$12$b/a/hBSVh3GpF/39om/0f..qAYlykCdoFmhzHqKV37PvqL0ohzMxK",
+  "phone": "+74952552554",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-17T16:53:29.607Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-19T07:22:56.974Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-19T07:22:56.958Z"
+  },
+  "lastLoginIp": "142.93.164.182",
+  "lastLoginUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "lastLoginCity": "Frankfurt am Main",
+  "lastLoginCountry": "Germany"
+},
+{
+  "_id": {
+    "$oid": "69ba99e716f2e17a8c81b379"
+  },
+  "email": "admin10@webinfo.cc",
+  "name": "Admin",
+  "password": "$2b$12$e9GI/P/rbtwisGzqFHeyTOC3vEl18SaLwYTiaUVYuke4AlFsfZeAu",
+  "phone": "3333333",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-18T12:26:15.091Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-22T17:18:35.839Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-22T17:18:35.820Z"
+  },
+  "lastLoginIp": "142.93.164.182",
+  "lastLoginUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+  "lastLoginCity": "Frankfurt am Main",
+  "lastLoginCountry": "Germany"
+},
+{
+  "_id": {
+    "$oid": "69bb07ef16f2e17a8c81b464"
+  },
+  "email": "cheke@webinfo.cc",
+  "name": "Tesfsjsb",
+  "password": "$2b$12$P2wbX74wbjWBwX8/LL.2RuJdJVMDAuDw2GDwarOYon10NfCGEAyAS",
+  "phone": "2784884",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-18T20:15:43.975Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-18T20:15:43.975Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69c2a0d016f2e17a8c81bfc3"
+  },
+  "email": "admin9@webinfo.cc",
+  "name": "admin",
+  "password": "$2b$12$AjJdLgovW4T0v5i7u98wpOHyZWSZrb0OJzZj/lwgo33Ftvu00qPZe",
+  "phone": "+74952552554",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-24T14:33:52.595Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-25T07:58:09.458Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-25T07:58:09.412Z"
+  },
+  "lastLoginIp": "91.240.86.122",
+  "lastLoginUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "lastLoginCity": "St Petersburg",
+  "lastLoginCountry": "Russia",
+  "company": ""
+},
+{
+  "_id": {
+    "$oid": "69c638dab5a9044b579ae00e"
+  },
+  "email": "admin5@webinfo.cc",
+  "name": "Iliea",
+  "password": "$2b$12$hWsgkULUOSDlrLK1KA/jU.pC33MKYruPaeTSPmhJMT/6CgyZET5Dm",
+  "phone": "74952552554",
+  "role": "client",
+  "status": "active",
+  "adminNotes": "",
+  "createdAt": {
+    "$date": "2026-03-27T07:59:22.093Z"
+  },
+  "updatedAt": {
+    "$date": "2026-03-27T07:59:40.689Z"
+  },
+  "__v": 0,
+  "lastLoginAt": {
+    "$date": "2026-03-27T07:59:40.634Z"
+  },
+  "lastLoginIp": "140.248.74.93",
+  "lastLoginUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
+  "lastLoginCity": "Frankfurt am Main",
+  "lastLoginCountry": "Germany"
+}]
