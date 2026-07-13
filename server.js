@@ -747,6 +747,15 @@ app.prepare().then(async () => {
     const v2ApiKey = process.env.CHATCENTER_V2_API_KEY;
     const SYSTEM_USER_ID = process.env.CHATCENTER_SYSTEM_USER_ID;
 
+    if (SYSTEM_USER_ID && !/^[0-9a-fA-F]{24}$/.test(SYSTEM_USER_ID)) {
+      console.error(
+        `[ChatCenter SSE] FATAL: CHATCENTER_SYSTEM_USER_ID="${SYSTEM_USER_ID}" is not a valid Mongo ObjectId ` +
+        `(must be exactly 24 hex chars, got ${SYSTEM_USER_ID.length}). ` +
+        `Run scripts/seed-chatcenter-user.ts and copy the printed _id into .env. ` +
+        `All incoming messages (text and media) will fail validation until this is fixed.`
+      );
+    }
+
     if (v2Url && v2ApiKey && SYSTEM_USER_ID) {
       let reconnectDelay = 5000;
       const MAX_RECONNECT_DELAY = 60000;
@@ -789,15 +798,37 @@ app.prepare().then(async () => {
           let messageType = "text";
           if (msg.attachments && msg.attachments.length > 0) {
             const att = msg.attachments[0];
-            const isImage = att.fileType === "photo" || att.fileType === "image";
+            const attMime = (att.mimeType || "").toLowerCase();
+            const attExt = (att.fileExtension || (att.fileName || "").split(".").pop() || "")
+              .toLowerCase().replace(/^\./, "");
+            const isImage =
+              att.fileType === "photo" ||
+              att.fileType === "image" ||
+              attMime.startsWith("image/") ||
+              ["jpg", "jpeg", "png", "gif", "webp", "bmp"].includes(attExt);
             messageType = isImage ? "image" : "file";
 
             // Download file from external system and upload to S3
+            if (!s3) {
+              console.error("[ChatCenter SSE] Attachment skipped: S3 is not configured (AWS_ENDPOINT_URL missing)");
+            } else if (!att.downloadUrl) {
+              console.error(`[ChatCenter SSE] Attachment skipped: no downloadUrl (attachment: ${JSON.stringify(att).substring(0, 300)})`);
+            }
             if (att.downloadUrl && s3) {
               try {
-                const downloadFullUrl = att.downloadUrl.startsWith("http")
-                  ? att.downloadUrl
-                  : `${v2Url}${att.downloadUrl}`;
+                // downloadUrl приходит в непредсказуемом формате (иногда с дублирующимся
+                // префиксом /channel-api/v2/{botId}), поэтому надёжнее извлечь fileId
+                // и построить URL по спеке: {v2Url}/files/{fileId}
+                let downloadFullUrl;
+                if (att.downloadUrl.startsWith("http")) {
+                  downloadFullUrl = att.downloadUrl;
+                } else {
+                  const fileIdMatch = att.downloadUrl.match(/\/files\/(\d+)\s*$/);
+                  const fileId = fileIdMatch ? fileIdMatch[1] : att.fileStorageId;
+                  downloadFullUrl = fileId
+                    ? `${v2Url}/files/${fileId}`
+                    : `${v2Url}${att.downloadUrl}`;
+                }
                 const fileRes = await fetch(downloadFullUrl, {
                   headers: { "Authorization": `Bearer ${v2ApiKey}` },
                 });
@@ -805,22 +836,26 @@ app.prepare().then(async () => {
                   const crypto = require("crypto");
                   const id = crypto.randomUUID();
                   const safeName = (att.fileName || "file").replace(/[^a-zA-Z0-9._-]/g, "_");
+                  const extMimeMap = { jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", gif: "image/gif", webp: "image/webp", bmp: "image/bmp" };
+                  const attContentType = att.mimeType || extMimeMap[attExt] || "application/octet-stream";
                   const key = `chat-attachments/${id}-${safeName}`;
                   const fileBuffer = Buffer.from(await fileRes.arrayBuffer());
                   await s3.send(new PutObjectCommand({
                     Bucket: S3_BUCKET,
                     Key: key,
                     Body: fileBuffer,
-                    ContentType: att.mimeType || "application/octet-stream",
+                    ContentType: attContentType,
                   }));
                   const fileUrl = `/api/files/${key}`;
                   attachment = {
                     url: fileUrl,
                     filename: att.fileName || "file",
-                    mimeType: att.mimeType || "application/octet-stream",
+                    mimeType: attContentType,
                     size: att.fileSize || 0,
                   };
                   console.log(`[ChatCenter SSE] Uploaded attachment: ${fileUrl}`);
+                } else {
+                  console.error(`[ChatCenter SSE] Attachment download failed: HTTP ${fileRes.status} for ${downloadFullUrl}`);
                 }
               } catch (fileErr) {
                 console.error("[ChatCenter SSE] Failed to process attachment:", fileErr.message);
