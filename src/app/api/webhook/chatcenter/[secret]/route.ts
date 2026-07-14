@@ -80,7 +80,7 @@ export async function POST(
     if (type === "file" && file) {
       const id = crypto.randomUUID();
       const safeName = (fileName || file.name || "file").replace(/[^a-zA-Z0-9._-]/g, "_");
-      const blob = await uploadFile(`chat-attachments/${id}-${safeName}`, file, file.type || "application/octet-stream");
+      const blob = await uploadFile(`chat-attachments/${id}-${safeName}`, file, file.type || "application/octet-stream", fileName || file.name || "file");
       attachment = {
         url: blob.url,
         filename: fileName || file.name || "file",
