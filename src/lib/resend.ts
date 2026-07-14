@@ -6,7 +6,7 @@ export async function sendMagicLinkEmail(email: string, token: string) {
   const url = `${process.env.NEXT_PUBLIC_APP_URL}/verify?token=${token}`;
  //
   await resend.emails.send({
-    from: "BENEFITSAR (Demo) <finchat_demo@ship-easy.app>",
+    from: process.env.EMAIL_FROM!,
     to: email,
     subject: "Your login link",
     html: `
@@ -30,7 +30,7 @@ export async function sendWelcomeEmail(email: string, name: string, token: strin
   const url = `${process.env.NEXT_PUBLIC_APP_URL}/verify?token=${token}`;
 
   await resend.emails.send({
-    from: "BENEFITSAR (Demo) <finchat_demo@ship-easy.app>",
+    from: process.env.EMAIL_FROM!,
     to: email,
     subject: "Ваша заявка на регистрацию одобрена!",
     html: `
