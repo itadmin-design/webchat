@@ -60,7 +60,7 @@ export async function POST(request: Request) {
     // Use random ID in path to prevent guessable URLs and filename collisions
     const id = crypto.randomUUID();
     const safeName = file.name.replace(/[^a-zA-Z0-9._-]/g, "_");
-    const blob = await uploadFile(`chat-attachments/${id}-${safeName}`, file, file.type);
+    const blob = await uploadFile(`chat-attachments/${id}-${safeName}`, file, file.type, file.name);
 
     return NextResponse.json({
       url: blob.url,
