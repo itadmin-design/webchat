@@ -568,7 +568,7 @@ app.prepare().then(async () => {
                   const form = new FormData();
                   try {
                     const blob = await fetchFileAsBlob(attachment.url);
-                    const safeName = (attachment.filename || "file").replace(/[^a-zA-Z0-9._-]/g, "_");
+                    const safeName = (attachment.filename || "file").replace(/[\/\\"\x00-\x1f]/g, "_").trim() || "file";
                     form.append("file", blob, safeName);
                   } catch (fileErr) {
                     console.error("[ChatCenter v2] Failed to fetch file:", fileErr.message);
@@ -648,7 +648,7 @@ app.prepare().then(async () => {
                 if (attachment && attachment.url) {
                   try {
                     const blob = await fetchFileAsBlob(attachment.url);
-                    const safeName = (attachment.filename || "file").replace(/[^a-zA-Z0-9._-]/g, "_");
+                    const safeName = (attachment.filename || "file").replace(/[\/\\"\x00-\x1f]/g, "_").trim() || "file";
                     form.append("file", blob, safeName);
                   } catch (fileErr) {
                     console.error("[ChatCenter v1] Failed to fetch file:", fileErr.message);
@@ -845,6 +845,7 @@ app.prepare().then(async () => {
                     Key: key,
                     Body: fileBuffer,
                     ContentType: attContentType,
+                    Metadata: { originalname: encodeURIComponent(att.fileName || "file") },
                   }));
                   const fileUrl = `/api/files/${key}`;
                   attachment = {
