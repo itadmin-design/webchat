@@ -21,6 +21,18 @@ export async function GET(
     if (response.ContentLength) headers.set("Content-Length", String(response.ContentLength));
     headers.set("Cache-Control", "public, max-age=31536000, immutable");
 
+    // Отдаём оригинальное имя файла (в т.ч. с кириллицей) через RFC 5987
+    const metaName = (response.Metadata as Record<string, string> | undefined)?.originalname;
+    if (metaName) {
+      let original = metaName;
+      try { original = decodeURIComponent(metaName); } catch {}
+      const asciiFallback = original.replace(/[^\x20-\x7E]/g, "_").replace(/"/g, "'");
+      headers.set(
+        "Content-Disposition",
+        `inline; filename="${asciiFallback}"; filename*=UTF-8''${encodeURIComponent(original)}`
+      );
+    }
+
     return new Response(stream as unknown as BodyInit, { headers });
   } catch (error: unknown) {
     const code = (error as { name?: string })?.name;
