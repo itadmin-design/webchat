@@ -16,6 +16,7 @@ export async function uploadFile(
   key: string,
   body: File | Blob | ReadableStream | Buffer,
   contentType?: string,
+  originalName?: string,
 ): Promise<{ url: string }> {
   let buffer: Buffer;
 
@@ -40,6 +41,8 @@ export async function uploadFile(
     Key: key,
     Body: buffer,
     ContentType: contentType || "application/octet-stream",
+    // Оригинальное имя (с кириллицей) храним в метаданных S3 в percent-encoded виде
+    Metadata: originalName ? { originalname: encodeURIComponent(originalName) } : undefined,
   }));
 
   return { url: `/api/files/${key}` };
